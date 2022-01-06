@@ -1,3 +1,7 @@
+body{
+    text-align: center;
+    border: black solid 2px;
+}
 #container{
     width: 50vw;
     height: 10vh;
@@ -9,4 +13,11 @@
 
 #value {
     margin-top: 5;
+}
+
+#retry{
+    display: none;
+}
+#container{
+    margin-bottom: 10px;
 }
