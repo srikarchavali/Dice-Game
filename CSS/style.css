@@ -1,0 +1,12 @@
+#container{
+    width: 50vw;
+    height: 10vh;
+}
+
+#image {
+    height: 100%;
+}
+
+#value {
+    margin-top: 5;
+}
