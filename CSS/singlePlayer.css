@@ -1,0 +1,41 @@
+body{
+    margin: auto;
+    padding: 10px;
+    }
+#wrap{
+    background: rgb(175, 207, 115);
+    border: black solid 2px;
+    position: absolute;
+    left: 100px;
+    padding: 50px;
+}
+#container{
+    width: 50vw;
+    height: 10vh;
+    margin-bottom: 10px;
+}
+#wrap1{
+    position: relative;
+    left: 20%;
+}
+#wrap2 {
+    position: relative;
+    left: 40%;
+}
+#image {
+    position: relative;
+    left: 40%;
+    height: 100%;
+}
+#wrap3{
+    position: relative;
+    left: 40%;
+}
+
+#value {
+    margin-top: 5;
+}
+
+#retry{
+    display: none;
+}
