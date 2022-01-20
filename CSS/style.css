@@ -1,41 +1,85 @@
+html{
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(../images/dice.jpg);
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 body{
     margin: auto;
-    padding: 10px;
-    }
-#wrap{
-    background: rgb(175, 207, 115);
-    border: black solid 2px;
-    position: absolute;
-    left: 100px;
-    padding: 50px;
 }
-#container{
+#wrap{
+    width: 50%;
+    margin: 20px auto;
+    text-align: center ;
+    color: white;
+}
+#p1Container{
     width: 50vw;
     height: 10vh;
     margin-bottom: 10px;
 }
 #wrap1{
-    position: relative;
-    left: 20%;
+    width: 75%;
+    margin: auto;
+    text-align: center;
 }
-#wrap2 {
-    position: relative;
-    left: 40%;
+
+#wrap2, #wrap3 {
+    margin: auto;
+    text-align: center;
+    width: 100%;
 }
-#image {
-    position: relative;
-    left: 40%;
-    height: 100%;
+
+li {
+    margin: 2px;
+    list-style-type: none;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#wrap3{
-    position: relative;
-    left: 40%;
+
+#wrap2 #image1, #wrap3 #image2 {
+    padding: 5px;
+    margin: auto;
 }
 
 #value {
     margin-top: 5;
 }
 
-#retry{
+#retry, #retry2{
+    padding: 5px 20px;
+    background: black;
+    color: white;
+    border: white 5px double;
+    border-radius: 10px;
+    margin: auto;
+    transition: 0.5s;
     display: none;
+}
+
+#retry:hover, #retry2:hover {
+    background: rgb(70, 69, 69);
+}
+
+.scores{
+    display: flex;
+    justify-content: center;
+}
+
+#button, #button2 {
+    padding: 5px 20px;
+    background: black;
+    color: white;
+    border: white 5px double;
+    border-radius: 10px;
+    margin: auto;
+    transition: 0.5s;
+}
+
+#button:hover, #button2:hover {
+    background: rgb(70, 69, 69);
 }
